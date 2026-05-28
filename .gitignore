@@ -1,0 +1,18 @@
+# Compiled class files
+bin/
+*.class
+
+# Logs
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Mac
+.DS_Store
+
+# IDE
+.idea/
+*.iml
