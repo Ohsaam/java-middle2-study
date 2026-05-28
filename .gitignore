@@ -16,3 +16,11 @@ bin/
 # IDE
 .idea/
 *.iml
+
+# docs/ 폴더 전체 커밋 금지 (강의 PDF + 정리 노트 모두 로컬에서만 관리)
+# .gitkeep만 예외로 두어 폴더 구조는 유지
+docs/*
+!docs/.gitkeep
+
+# Claude Code 로컬 설정 (머신별 경로 포함 → 커밋 금지)
+.claude/settings.local.json
