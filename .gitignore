@@ -24,3 +24,6 @@ docs/*
 
 # Claude Code 로컬 설정 (머신별 경로 포함 → 커밋 금지)
 .claude/settings.local.json
+
+# OMC 운영 아티팩트 (세션 상태 → 커밋 금지)
+.omc/

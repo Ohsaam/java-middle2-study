@@ -14,7 +14,7 @@ public class BoxMain2 {
         System.out.println(strValue);
 
         integerBox.set("Not an Integer"); // 잘못된 인수 전달
-
         
+
     }
 }
